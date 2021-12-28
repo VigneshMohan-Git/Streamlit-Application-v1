@@ -1,0 +1,98 @@
+.wrapper {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow:hidden;
+  align-items: center;
+  justify-content:center;
+}
+
+#column1 {
+    height: 500px;
+    background-color:orange;
+}
+
+#column2 {
+    height: 500px;
+    background-color: #3ccfff;
+}
+
+#column3 {
+    height: 500px;
+    background-color:red;
+}
+
+#button1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #155566;
+  color: white;
+  display: flex;
+  opacity:.5;
+  text-align:center;
+}
+
+#button1:hover {  
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+#button2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 22px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #155566;
+  color: white;
+  display: flex;
+  align-items:center;
+  opacity:.5;
+}
+
+#button2:hover {  
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100vw;
+  flex: 1;
+  overflow:hidden;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  }
+}
+

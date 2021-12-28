@@ -1,0 +1,827 @@
+2021-12-10 11:51:49.543 DEBUG   streamlit.logger: Initialized tornado logs
+2021-12-10 11:51:49.559 DEBUG   matplotlib.pyplot: Loaded backend agg version unknown.
+2021-12-10 11:51:49.560 DEBUG   streamlit.watcher.event_based_file_watcher: No singleton. Registering one.
+2021-12-10 11:51:49.564 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\.streamlit\config.toml
+2021-12-10 11:51:49.565 DEBUG   streamlit.bootstrap: Setting up signal handler
+2021-12-10 11:51:49.566 DEBUG   asyncio: Using selector: SelectSelector
+2021-12-10 11:51:49.578 DEBUG   streamlit.server.server: Starting server...
+2021-12-10 11:51:49.579 DEBUG   streamlit.server.server: Serving static content from c:\users\poovendran\anaconda3\lib\site-packages\streamlit\static
+2021-12-10 11:51:49.584 DEBUG   streamlit.server.server: Server started on port 8000
+2021-12-10 11:51:49.587 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py
+2021-12-10 11:51:49.588 DEBUG   streamlit.report_session: ReportSession initialized (id=b24e4f70-a777-4331-ae88-27725e501801)
+2021-12-10 11:51:49.588 DEBUG   streamlit.server.server: Created new session for ws 8790499367040. Session ID: b24e4f70-a777-4331-ae88-27725e501801
+2021-12-10 11:51:49.589 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:51:49.591 DEBUG   streamlit.script_runner: Running script RerunData(query_string='', widget_states=None)
+2021-12-10 11:51:49.592 DEBUG   streamlit.server.server: Server state: State.INITIAL -> State.WAITING_FOR_FIRST_BROWSER
+2021-12-10 11:51:49.592 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID b24e4f70-a777-4331-ae88-27725e501801
+2021-12-10 11:51:49.593 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:51:49.593 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:51:49.594 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 11:51:49.761 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: None
+2021-12-10 11:51:49.762 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function get_static_store at 0x0000000010BEF4C0>
+2021-12-10 11:51:49.763 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function pandas_profile at 0x0000000010C1F0D0>
+2021-12-10 11:51:49.763 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function save_csv at 0x0000000010C0DDC0>
+2021-12-10 11:51:50.121 DEBUG   git.cmd: Popen(['git', 'version'], cwd=C:\Users\Poovendran\VIGNESH_\WORKFILES, universal_newlines=False, shell=None, istream=None)
+2021-12-10 11:51:50.506 DEBUG   git.cmd: Popen(['git', 'version'], cwd=C:\Users\Poovendran\VIGNESH_\WORKFILES, universal_newlines=False, shell=None, istream=None)
+2021-12-10 11:51:50.636 DEBUG   git.util: Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-12-10 11:51:50.662 DEBUG   git.cmd: Popen(['git', 'version'], cwd=C:\Users\Poovendran\VIGNESH_, universal_newlines=False, shell=None, istream=None)
+2021-12-10 11:51:50.777 DEBUG   git.cmd: Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\Users\Poovendran\VIGNESH_, universal_newlines=False, shell=None, istream=None)
+2021-12-10 11:51:50.990 DEBUG   streamlit.version: Skipping PyPI version check
+2021-12-10 11:51:57.367 DEBUG   streamlit.components.v1.components: Registered component 'st_aggrid.agGrid': c:\users\poovendran\anaconda3\lib\site-packages\st_aggrid\frontend\build
+2021-12-10 11:52:01.069 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:52:01.071 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:52:01.285 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:52:02.940 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:52:02.942 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:52:02.942 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_functions_.py
+2021-12-10 11:52:12.555 DEBUG   streamlit.server.server: Reused preheated session for ws 333199056. Session ID: b24e4f70-a777-4331-ae88-27725e501801
+2021-12-10 11:52:12.555 DEBUG   streamlit.server.server: Server state: State.WAITING_FOR_FIRST_BROWSER -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-12-10 11:52:12.568 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:52:12.617 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2021-12-10 11:52:12.618 DEBUG   streamlit.report_session: Skipping rerun since the preheated run is the same
+2021-12-10 11:52:21.302 DEBUG   streamlit.report_session: Shutting down (id=b24e4f70-a777-4331-ae88-27725e501801)
+2021-12-10 11:52:21.304 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID b24e4f70-a777-4331-ae88-27725e501801
+2021-12-10 11:52:21.305 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:52:21.306 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:52:21.307 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:52:21.315 DEBUG   streamlit.server.server: Server state: State.ONE_OR_MORE_BROWSERS_CONNECTED -> State.NO_BROWSERS_CONNECTED
+2021-12-10 11:52:22.140 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py
+2021-12-10 11:52:22.140 DEBUG   streamlit.report_session: ReportSession initialized (id=2dc779cd-30c7-4e49-a513-0b80d3ccedb8)
+2021-12-10 11:52:22.141 DEBUG   streamlit.server.server: Created new session for ws 280732816. Session ID: 2dc779cd-30c7-4e49-a513-0b80d3ccedb8
+2021-12-10 11:52:22.141 DEBUG   streamlit.server.server: Server state: State.NO_BROWSERS_CONNECTED -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-12-10 11:52:22.233 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=DataView"
+  widget_states {
+  }
+}
+
+2021-12-10 11:52:22.234 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:52:22.235 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=DataView', widget_states=)
+2021-12-10 11:52:22.236 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 2dc779cd-30c7-4e49-a513-0b80d3ccedb8
+2021-12-10 11:52:22.237 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:52:22.237 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:52:22.237 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 11:52:22.472 DEBUG   streamlit.legacy_caching.caching: mem_cache key for st_functions_.save_csv: 8889d29335a8377ce58cee9b2f3227ec
+2021-12-10 11:52:22.473 DEBUG   streamlit.legacy_caching.caching: Creating new mem_cache (key=8889d29335a8377ce58cee9b2f3227ec, max_entries=inf, ttl=inf)
+2021-12-10 11:52:22.494 DEBUG   streamlit.legacy_caching.caching: Cache key: 364f5ba9d463e5669173e1df90e449f9-8889d29335a8377ce58cee9b2f3227ec
+2021-12-10 11:52:22.494 DEBUG   streamlit.legacy_caching.caching: Memory cache MISS: 364f5ba9d463e5669173e1df90e449f9-8889d29335a8377ce58cee9b2f3227ec
+2021-12-10 11:52:22.494 DEBUG   streamlit.legacy_caching.caching: Cache miss: <function save_csv at 0x0000000010C0DDC0>
+2021-12-10 11:52:22.511 DEBUG   streamlit.in_memory_file_manager: Adding media file 7651428c3003a6cf71c420ebef32e095929557292eed74c4a73991d0
+2021-12-10 11:52:22.511 DEBUG   streamlit.in_memory_file_manager: Files: 1; Sessions with files: 1
+2021-12-10 11:52:22.522 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:52:22.525 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:52:22.667 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:52:24.279 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:52:24.280 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:52:24.281 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_functions_.py
+2021-12-10 11:52:24.284 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:52:29.696 DEBUG   streamlit.report_session: Shutting down (id=2dc779cd-30c7-4e49-a513-0b80d3ccedb8)
+2021-12-10 11:52:29.697 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 2dc779cd-30c7-4e49-a513-0b80d3ccedb8
+2021-12-10 11:52:29.697 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:52:29.698 DEBUG   streamlit.in_memory_file_manager: Files: 1; Sessions with files: 0
+2021-12-10 11:52:29.698 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:52:29.702 DEBUG   streamlit.server.server: Server state: State.ONE_OR_MORE_BROWSERS_CONNECTED -> State.NO_BROWSERS_CONNECTED
+2021-12-10 11:52:30.498 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py
+2021-12-10 11:52:30.499 DEBUG   streamlit.report_session: ReportSession initialized (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:52:30.500 DEBUG   streamlit.server.server: Created new session for ws 290878464. Session ID: 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:52:30.500 DEBUG   streamlit.server.server: Server state: State.NO_BROWSERS_CONNECTED -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-12-10 11:52:30.598 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+  }
+}
+
+2021-12-10 11:52:30.600 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:52:30.601 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=)
+2021-12-10 11:52:30.602 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:52:30.604 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:52:30.605 DEBUG   streamlit.in_memory_file_manager: Files: 1; Sessions with files: 0
+2021-12-10 11:52:30.606 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 11:52:30.858 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:52:30.860 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:52:30.860 DEBUG   streamlit.in_memory_file_manager: Deleting File: 7651428c3003a6cf71c420ebef32e095929557292eed74c4a73991d0
+2021-12-10 11:52:31.013 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:52:32.446 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:52:32.448 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:52:32.449 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_functions_.py
+2021-12-10 11:52:32.477 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:52:36.122 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+  }
+}
+
+2021-12-10 11:52:36.145 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:52:36.147 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+)
+2021-12-10 11:52:36.147 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:52:36.147 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:52:36.148 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:52:36.149 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 11:52:36.442 WARNING streamlit.error_util: Traceback (most recent call last):
+  File "c:\users\poovendran\anaconda3\lib\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py", line 278, in <module>
+    main()
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py", line 261, in main
+    fun.save_Alg_list(df_)
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\st_functions_.py", line 173, in save_Alg_list
+    open(std.vConfigPath + 'ALG_LIST.csv','w+').write(df.to_csv(index=False, line_terminator='\n'))
+AttributeError: 'function' object has no attribute 'vConfigPath'
+
+2021-12-10 11:52:36.446 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:52:36.453 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:52:36.620 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:52:38.395 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:56:50.125 DEBUG   streamlit.watcher.event_based_file_watcher: File MD5 changed: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:56:50.125 DEBUG   streamlit.report_session: Enqueuing report_changed message (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:57:12.082 DEBUG   streamlit.watcher.event_based_file_watcher: File MD5 changed: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:57:12.082 DEBUG   streamlit.report_session: Enqueuing report_changed message (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:57:12.084 DEBUG   streamlit.watcher.event_based_file_watcher: File timestamp did not change: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:57:55.713 DEBUG   streamlit.watcher.event_based_file_watcher: File MD5 changed: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:57:55.714 DEBUG   streamlit.report_session: Enqueuing report_changed message (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:57:55.715 DEBUG   streamlit.watcher.event_based_file_watcher: File timestamp did not change: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:58:16.292 DEBUG   streamlit.watcher.event_based_file_watcher: File MD5 changed: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 11:58:16.293 DEBUG   streamlit.report_session: Enqueuing report_changed message (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:58:22.075 DEBUG   streamlit.watcher.event_based_file_watcher: File MD5 changed: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:58:22.076 DEBUG   streamlit.report_session: Enqueuing report_changed message (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:58:22.077 DEBUG   streamlit.watcher.event_based_file_watcher: File timestamp did not change: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 11:58:36.807 DEBUG   streamlit.server.server: Received the following back message:
+set_run_on_save: true
+
+2021-12-10 11:58:36.811 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+  }
+}
+
+2021-12-10 11:58:36.813 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:58:36.815 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+)
+2021-12-10 11:58:36.815 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:58:36.816 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:58:36.817 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:58:36.817 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 11:58:37.085 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: None
+2021-12-10 11:58:37.086 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function get_static_store at 0x0000000013E3D4C0>
+2021-12-10 11:58:37.087 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function pandas_profile at 0x0000000013E3D040>
+2021-12-10 11:58:37.087 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function save_csv at 0x0000000013E3D670>
+2021-12-10 11:58:37.146 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:58:37.148 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:58:37.302 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:58:39.379 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:58:43.891 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 11:58:43.893 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:58:43.894 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 11:58:43.895 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:58:43.895 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:58:43.896 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:58:43.897 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+python: can't open file 'Model_Lib/model_main_.py': [Errno 2] No such file or directory
+2021-12-10 11:58:44.574 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:58:44.577 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:58:44.715 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:58:46.592 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:58:54.393 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:55.473 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:55.723 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:56.225 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:56.639 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:56.682 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:56.791 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:56.917 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:57.235 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:57.485 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:57.985 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:58.991 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:59.241 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:58:59.741 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:59:00.747 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:59:00.997 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:59:01.497 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='0a2a9c106306c31cd1c9fa28eda68225', modification_time=1639116380.2571268, on_file_changed=<blinker.base.Signal object at 0x0000000013D1D700>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011567340>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011567D00>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x000000001097FE20>)}
+2021-12-10 11:59:52.370 DEBUG   streamlit.watcher.event_based_file_watcher: File MD5 changed: C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py
+2021-12-10 11:59:52.382 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 11:59:52.383 DEBUG   streamlit.script_runner: Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: false
+}
+)
+2021-12-10 11:59:52.383 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:59:52.383 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:59:52.384 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:59:52.384 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 11:59:52.600 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: None
+2021-12-10 11:59:52.602 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function get_static_store at 0x00000000112F81F0>
+2021-12-10 11:59:52.603 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function pandas_profile at 0x00000000112F85E0>
+2021-12-10 11:59:52.603 DEBUG   streamlit.legacy_caching.caching: Entering st.cache: <function save_csv at 0x00000000112F8310>
+2021-12-10 11:59:52.661 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 11:59:52.662 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:59:52.818 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 11:59:54.656 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 11:59:58.324 DEBUG   streamlit.report_session: Shutting down (id=94958555-2620-4f69-9414-a28c0134d46b)
+2021-12-10 11:59:58.324 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 94958555-2620-4f69-9414-a28c0134d46b
+2021-12-10 11:59:58.324 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 11:59:58.325 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 11:59:58.325 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 11:59:58.328 DEBUG   streamlit.server.server: Server state: State.ONE_OR_MORE_BROWSERS_CONNECTED -> State.NO_BROWSERS_CONNECTED
+2021-12-10 12:00:01.810 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_main_.py
+2021-12-10 12:00:01.811 DEBUG   streamlit.report_session: ReportSession initialized (id=4156568a-c8ce-4f34-84ab-42a412a2a551)
+2021-12-10 12:00:01.811 DEBUG   streamlit.server.server: Created new session for ws 280731952. Session ID: 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:00:01.811 DEBUG   streamlit.server.server: Server state: State.NO_BROWSERS_CONNECTED -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-12-10 12:00:01.853 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+  }
+}
+
+2021-12-10 12:00:01.854 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:00:01.855 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=)
+2021-12-10 12:00:01.855 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:00:01.855 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:00:01.856 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:00:01.856 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 12:00:02.013 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:00:02.015 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:00:02.148 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:00:03.689 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_global_.py
+2021-12-10 12:00:03.690 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_configuration_.py
+2021-12-10 12:00:03.690 DEBUG   streamlit.watcher.event_based_file_watcher: Watcher created for C:\Users\Poovendran\VIGNESH_\WORKFILES\st_functions_.py
+2021-12-10 12:00:03.711 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:00:09.128 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+  }
+}
+
+2021-12-10 12:00:09.153 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:00:09.154 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+)
+2021-12-10 12:00:09.154 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:00:09.155 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:00:09.155 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:00:09.156 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 12:00:09.422 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:00:09.427 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:00:09.620 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:00:11.816 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:00:13.717 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 12:00:13.722 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:00:13.726 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 12:00:13.728 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:00:13.729 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:00:13.732 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:00:13.732 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+Traceback (most recent call last):
+  File "Model_Lib/ml_model_main_.py", line 4, in <module>
+    import ml_subfile_ as var
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\Model_Lib\ml_subfile_.py", line 1, in <module>
+    import ml_settings as std
+ModuleNotFoundError: No module named 'ml_settings'
+2021-12-10 12:00:17.233 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:00:17.235 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:00:17.361 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:00:19.205 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:00:22.958 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:22.981 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:23.003 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:23.139 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:23.264 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:23.335 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:56.771 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:56.833 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:56.932 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:56.977 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:00:57.117 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:01:39.034 DEBUG   streamlit.server.server: Received the following back message:
+load_git_info: true
+
+2021-12-10 12:01:39.042 DEBUG   git.cmd: Popen(['git', 'version'], cwd=C:\Users\Poovendran\VIGNESH_, universal_newlines=False, shell=None, istream=None)
+2021-12-10 12:01:39.403 DEBUG   git.cmd: Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\Users\Poovendran\VIGNESH_, universal_newlines=False, shell=None, istream=None)
+2021-12-10 12:01:40.250 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+  }
+}
+
+2021-12-10 12:01:40.254 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:01:40.255 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+)
+2021-12-10 12:01:40.256 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:01:40.256 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:01:40.256 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:01:40.257 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 12:01:40.644 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:01:40.648 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:01:40.793 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:01:42.928 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:01:46.454 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 12:01:46.457 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:01:46.458 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 12:01:46.458 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:01:46.459 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:01:46.460 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:01:46.460 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+Traceback (most recent call last):
+  File "Model_Lib/ml_model_main_.py", line 5, in <module>
+    import ml_timeseries_models as models
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\Model_Lib\ml_timeseries_models.py", line 1, in <module>
+    from settings_ import standard_init as std
+ModuleNotFoundError: No module named 'settings_'
+2021-12-10 12:02:02.741 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:02:02.744 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:02:02.937 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:02:05.176 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:02:07.769 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:31.291 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:32.214 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:32.254 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:32.304 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:32.343 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:32.463 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:33.334 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:33.585 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:34.091 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:35.111 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:35.361 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:04:35.861 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:30.418 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 12:05:30.419 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:05:30.419 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 12:05:30.419 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:05:30.420 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:05:30.420 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:05:30.420 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+Traceback (most recent call last):
+  File "Model_Lib/ml_model_main_.py", line 52, in <module>
+    preprocessed_df = preprocess.pre_process_(vInputData)
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\Model_Lib\ml_PreprocessData_.py", line 14, in pre_process_
+    data = pd.read_csv(vInput)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Poovendran\\VIGNESH_/Input/Data.csv'
+2021-12-10 12:05:45.900 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:05:45.901 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:05:45.999 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:05:47.238 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:05:52.991 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:53.021 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:53.051 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:53.086 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:53.205 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:53.293 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:05:53.371 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:07:43.355 DEBUG   streamlit.server.server: Received the following back message:
+load_git_info: true
+
+2021-12-10 12:07:43.363 DEBUG   git.cmd: Popen(['git', 'version'], cwd=C:\Users\Poovendran\VIGNESH_, universal_newlines=False, shell=None, istream=None)
+2021-12-10 12:07:43.783 DEBUG   git.cmd: Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\Users\Poovendran\VIGNESH_, universal_newlines=False, shell=None, istream=None)
+2021-12-10 12:07:44.181 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+  }
+}
+
+2021-12-10 12:07:44.183 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:07:44.184 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+)
+2021-12-10 12:07:44.184 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:07:44.184 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:07:44.185 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:07:44.185 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-12-10 12:07:44.417 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:07:44.420 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:07:44.433 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:07:44.580 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:07:58.553 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 12:07:58.555 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:07:58.556 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 12:07:58.557 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:07:58.557 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:07:58.557 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:07:58.558 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+Traceback (most recent call last):
+  File "Model_Lib/ml_model_main_.py", line 52, in <module>
+    preprocessed_df = preprocess.pre_process_(vInputData)
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\Model_Lib\ml_PreprocessData_.py", line 14, in pre_process_
+    data = pd.read_csv(vInput)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Poovendran\\VIGNESH_/Input/Data.csv'
+2021-12-10 12:08:11.050 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:08:11.055 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:08:11.195 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:08:12.754 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:08:16.506 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:08:16.538 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:08:16.591 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:08:16.694 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:08:16.841 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:08:16.907 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:10:53.247 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 12:10:53.249 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:10:53.250 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 12:10:53.251 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:10:53.251 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:10:53.252 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:10:53.252 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+Traceback (most recent call last):
+  File "Model_Lib/ml_model_main_.py", line 52, in <module>
+    preprocessed_df = preprocess.pre_process_(vInputData)
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\Model_Lib\ml_PreprocessData_.py", line 14, in pre_process_
+    data = pd.read_csv(vInput)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\parsers\base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "C:\Users\Poovendran\Anaconda3\lib\site-packages\pandas\io\common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Poovendran\\VIGNESH_/WORKFILES/Input/Data.csv'
+2021-12-10 12:11:04.625 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:11:04.626 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:11:04.723 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:11:06.051 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:11:20.748 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:11:23.973 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:11:24.023 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:11:24.188 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:11:24.234 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:12:00.577 DEBUG   streamlit.server.server: Received the following back message:
+rerun_script {
+  query_string: "tab=ModelExecution"
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+      int_array_value {
+        data: 1
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+      trigger_value: true
+    }
+  }
+}
+
+2021-12-10 12:12:00.579 DEBUG   streamlit.script_runner: Beginning script thread
+2021-12-10 12:12:00.580 DEBUG   streamlit.script_runner: Running script RerunData(query_string='tab=ModelExecution', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-fd1e08d94c3f2be6b8d678ca43ce68fb-None"
+  int_array_value {
+    data: 1
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-1b47b3184f66c6bd577810c087449f34-None"
+  trigger_value: true
+}
+)
+2021-12-10 12:12:00.581 DEBUG   streamlit.in_memory_file_manager: Disconnecting files for session with ID 4156568a-c8ce-4f34-84ab-42a412a2a551
+2021-12-10 12:12:00.581 DEBUG   streamlit.in_memory_file_manager: Sessions still active: dict_keys([])
+2021-12-10 12:12:00.581 DEBUG   streamlit.in_memory_file_manager: Files: 0; Sessions with files: 0
+2021-12-10 12:12:00.582 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+Traceback (most recent call last):
+  File "Model_Lib/ml_model_main_.py", line 52, in <module>
+    preprocessed_df = preprocess.pre_process_(vInputData)
+  File "C:\Users\Poovendran\VIGNESH_\WORKFILES\Model_Lib\ml_PreprocessData_.py", line 17, in pre_process_
+    df_ = df.sort_index()
+NameError: name 'df' is not defined
+2021-12-10 12:12:09.854 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-12-10 12:12:09.856 DEBUG   streamlit.in_memory_file_manager: Deleting expired files...
+2021-12-10 12:12:09.970 DEBUG   streamlit.report_session: OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-12-10 12:12:11.421 DEBUG   streamlit.server.server: Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-12-10 12:12:19.898 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:12:19.928 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:12:19.949 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:12:20.085 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
+2021-12-10 12:12:20.181 DEBUG   streamlit.watcher.event_based_file_watcher: Ignoring file C:\Users\Poovendran\VIGNESH_\WORKFILES\logs.txt.
+Watched_files: {'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_main_.py': WatchedFile(md5='9fe59c3bdd5e33461b840fcf396f0412', modification_time=1639117792.3458939, on_file_changed=<blinker.base.Signal object at 0x0000000011589E80>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_global_.py': WatchedFile(md5='82cc0b413283ed85411ecc2d98db6855', modification_time=1639117696.2483974, on_file_changed=<blinker.base.Signal object at 0x0000000011595190>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_configuration_.py': WatchedFile(md5='e1771f63a01d283b5c0eb2ea6028ecb5', modification_time=1639117702.0547295, on_file_changed=<blinker.base.Signal object at 0x0000000011595790>), 'C:\\Users\\Poovendran\\VIGNESH_\\WORKFILES\\st_functions_.py': WatchedFile(md5='02533158483187abf0f6a9345b712955', modification_time=1639116347.2082367, on_file_changed=<blinker.base.Signal object at 0x00000000115956A0>)}
