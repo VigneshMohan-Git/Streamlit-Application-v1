@@ -1,4 +1,4 @@
-# Streamlit.Application.v1
+<b> # Streamlit.Application.v1 </b>
 Streamlit Application - Forecasting Model
 
 #Open Terminal - Anaconda Terminal
