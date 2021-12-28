@@ -74,12 +74,15 @@ def main():
                 st.image(image, width=75)
             
             with col2:
-                st.header('YODA ANALYTICS')
+                #st.header('YODA ANALYTICS')
+                st.markdown("<h1 style='text-align: center; font-weight: bold; color: black;'> YODA ANALYTICS </h1>", unsafe_allow_html=True)
+           
            
         st.markdown(
             '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">',
             unsafe_allow_html=True,
         )
+        
         query_params = st.experimental_get_query_params()
         tabs = ["HOME", "DATA", "MODEL", "FORECAST"]
         if "tab" in query_params:
@@ -107,7 +110,7 @@ def main():
             {li_items}
             </ul>
             
-        """
+            """
         
             
         st.markdown(tabs_html, unsafe_allow_html=True)
@@ -122,8 +125,10 @@ def main():
             st.markdown('#')
             fun.html(fun.card_begin_str("WELCOME !!!"))
             st.markdown('#')
+            st.markdown('#')
         
-        
+            st.markdown("<p style='text-align: center; font-weight: bold; color: black;'> You must unlearn what you have learned. <br> - Master Yoda </p>", unsafe_allow_html=True)
+            
         
         #================================ Data Upload =====================================
         
