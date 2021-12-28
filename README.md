@@ -1,7 +1,7 @@
 <h2><b> Streamlit.Application.v1 </b> <br></h2>
 Streamlit Application - Forecasting Model <br><br>
 
-<b> Open Terminal - Anaconda Terminal </b> <br>
+<b> Open Terminal - (Anaconda) </b> <br>
 streamlit run st_main_.py --logger.level=debug 2>logs.txt <br><br>
 
 
